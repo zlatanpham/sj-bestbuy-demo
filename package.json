@@ -1,0 +1,28 @@
+{
+  "name": "bestbuy-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettify": "prettier -c --write \"*/**\""
+  },
+  "dependencies": {
+    "@sajari/react-hooks": "^3.6.0",
+    "next": "12.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@types/react": "17.0.34",
+    "autoprefixer": "^10.4.0",
+    "babel-plugin-inline-react-svg": "^1.1.2",
+    "babel-plugin-macros": "^3.1.0",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.19",
+    "typescript": "4.4.4"
+  }
+}
